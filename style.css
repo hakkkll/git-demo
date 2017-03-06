@@ -1,9 +1,33 @@
-body{
-  height: 1500px;
+
+.introdce{
+  float: right;
+  border: 1px solid black;
+  overflow: hidden;
+  font-size: 15px;
+  background-color: rgb(248, 249, 250);
 }
-span{
-  user-select:none;
+body{
+  height:auto;
+  width:1250px;
+  margin-left: 200px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#but{
+  background-color: cornflowerblue;
+  color: black;
+  }
+#but:hover{
+  color: aliceblue;
+  background-color: teal;
 }
 a{
   text-decoration:none;
+}
+#name{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 35%;
 }
